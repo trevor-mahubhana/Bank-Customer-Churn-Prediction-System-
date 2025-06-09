@@ -38,7 +38,7 @@ if st.button("Help Desk"):
                 
     
 # loading the saved model
-with open(r"C:\Users\MALCOM_TREVOR\Desktop\DATA SCIENCE\MY PROJECT\ML\Classification Tasks\bank churn\model\Random Forest Classifier Model with an accuracy of 97%.pkl","rb") as f:
+with open(r"model/Random Forest Classifier Model with an accuracy of 97%.pkl","rb") as f:
     model = pickle.load(f)
     
 st.write("Enter the customer's data in the field provided below")
