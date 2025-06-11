@@ -74,7 +74,7 @@ with col1:
     Is_Active_Member = st.selectbox("Is the customer an active member?",options = [0,1],placeholder = "Choose an option",index = None)
  
 with col2:
-    Estimated_Salary = st.text_input("Enter the estimated salary the customer get ?",placeholder="Type the number")
+    Estimated_Salary = st.text_input("Enter the estimated salary the customer get",placeholder="Type the number")
   
 
 checkpoint = ""
